@@ -1,10 +1,20 @@
     
-# a
-### Description 
-*2*
+# README Generator
+![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)
+![License](https://img.shields.io/badge/License-Academic-informational.svg)
+![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
+![License](https://img.shields.io/badge/License-ISC-blueviolet.svg)
+![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
+![License](https://img.shields.io/badge/License-MPL%202.0-orange.svg)
+![License](https://img.shields.io/badge/License-ODC_BY-sucess.svg)
+
+
+
+## Description 
+*Created an open source project that generates a high-quality README based on user input.*
 
 -----------
-### Table of Contents
+## Table of Contents
 
 * [Installation](#installation)
 
@@ -20,32 +30,32 @@
 
 -----------
 ## Installation 
-3
+Node understanding and npm are required.
 
 -----------
 
 ## Usage 
-4
+Make sure to first setup npm init -y as well as a .gitignore before pushing your repo to GitHub main, to make sure your node_modules dependencies don't upload.
 
 -----------
 
 ## License 
-Apache
+MIT License
 
 -----------
 
 ## Contributing 
-2
+Jonathan Hammond
 
 -----------
 
 ## Tests 
-5
+Yes please see 'TEST.md'
 
 -----------
 
 ## Questions 
-yes
-* GitHub: https://github.com/pythonidaer
+If you experience an issue, feel free to reach out to me.
+* GitHub: https://github.com/Pythonidaer
 
 * For additional information, please reach out to codefolio.work@gmail.com
