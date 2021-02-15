@@ -72,6 +72,9 @@ inquirer
         }
         */
 
+// Table of contents goes: 
+// - github.com/username/reponame/blob/main/readmename.md
+
         const myMd = `    
 # ${answers.projectTitle}
 ## Description 
@@ -80,17 +83,17 @@ inquirer
 -----------
 ### Table of Contents
 
-[Installation](https://github.com/${answers.username}/read-me-generator#installation)
+[Installation](#installation)
 
-[Usage](https://github.com/${answers.username}/read-me-generator#usage)
+[Usage](#usage)
 
-[License](https://github.com/${answers.username}/read-me-generator#license)
+[License](#license)
 
-[Contributing](https://github.com/${answers.username}/read-me-generator#contributing)
+[Contributing](#contributing)
 
-[Tests](https://github.com/${answers.username}/read-me-generator#tests)
+[Tests](#tests)
 
-[Questions](https://github.com/${answers.username}/read-me-generator#questions)
+[Questions](#questions)
 
 -----------
 ## Installation 
