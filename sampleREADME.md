@@ -1,17 +1,11 @@
     
 # README Generator
-![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)
-![License](https://img.shields.io/badge/License-Academic-informational.svg)
-![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
-![License](https://img.shields.io/badge/License-ISC-blueviolet.svg)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
-![License](https://img.shields.io/badge/License-MPL%202.0-orange.svg)
-![License](https://img.shields.io/badge/License-ODC_BY-sucess.svg)
 
 
 
 ## Description 
-*Created an open source project that generates a high-quality README based on user input.*
+*A node-based README generator for quick professional READMe creeations.*
 
 -----------
 ## Table of Contents
@@ -30,12 +24,12 @@
 
 -----------
 ## Installation 
-Node understanding and npm are required.
+Installation of node and understanding of npm inquirer are required for this project.
 
 -----------
 
 ## Usage 
-Make sure to first setup npm init -y as well as a .gitignore before pushing your repo to GitHub main, to make sure your node_modules dependencies don't upload.
+Reading npm inquirer documentation is extremely helpful if you wish to expand this idea.
 
 -----------
 
@@ -50,12 +44,12 @@ Jonathan Hammond
 -----------
 
 ## Tests 
-Yes please see 'TEST.md'
+Yes please see 'sampleREADME.md'
 
 -----------
 
 ## Questions 
-If you experience an issue, feel free to reach out to me.
+If you run into any issues, feel free to contact me through GitHub or Email.
 * GitHub: https://github.com/Pythonidaer
 
 * For additional information, please reach out to codefolio.work@gmail.com

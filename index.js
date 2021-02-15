@@ -64,15 +64,35 @@ inquirer
         }
     ])
     .then((answers) => {
+
+        switch (`${answers.license}`) {
+            case 'Apache':
+                licenseBadge = 'https://img.shields.io/badge/License-Apache%202.0-green.svg'
+                break;
+            case 'Academic':
+                licenseBadge = 'https://img.shields.io/badge/License-Academic-informational.svg'
+                break;
+            case 'GNU':
+                licenseBadge = 'https://img.shields.io/badge/License-GPLv3-blue.svg'
+                break;
+            case 'ISC':
+                licenseBadge = 'https://img.shields.io/badge/License-ISC-blueviolet.svg'
+                break;
+            case 'MIT':
+                licenseBadge = 'https://img.shields.io/badge/License-MIT-brightgreen.svg'
+                break;
+            case 'Mozilla':
+                licenseBadge = 'https://img.shields.io/badge/License-MPL%202.0-orange.svg'
+                break;
+            case 'Open':
+                licenseBadge = 'https://img.shields.io/badge/License-ODC_BY-sucess.svg'
+                break;
+            
+        }
+
         const myMd = `    
 # ${answers.projectTitle}
-![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)
-![License](https://img.shields.io/badge/License-Academic-informational.svg)
-![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
-![License](https://img.shields.io/badge/License-ISC-blueviolet.svg)
-![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
-![License](https://img.shields.io/badge/License-MPL%202.0-orange.svg)
-![License](https://img.shields.io/badge/License-ODC_BY-sucess.svg)
+![License](${licenseBadge})
 
 
 
