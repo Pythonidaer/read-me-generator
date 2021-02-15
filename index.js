@@ -40,7 +40,7 @@ inquirer
         {
             type: "input",
             name: "contributing",
-            message: "Who are the contributors of this projects?"
+            message: "What are the contributing guidelines for other developers?"
         },
         {
             type: "input",
@@ -64,6 +64,27 @@ inquirer
         }
     ])
     .then((answers) => {
+
+/*
+Instructions for President's Day:
+   1. Attach links to licenses within case statements (see below link for examples):
+   https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+   2. Update README to include resources used for node, npm inquirer, npm, as well as GitHub inspirations.
+   3. Review instructions to make sure Acceptance Criteria is satisfied with questions above.
+   4. Determine if we have to use generateMarkdown.js in which case this needs refactoring.
+   5. Experiment with module.exports = filename // then const filename = require('./filename.js');
+   6. Once project is confirmed completed, run through grading rubric unit-9-rubric.html
+   7. Make sure GitHub repository contains correct MARKDOWN file in sample readme instructions.
+   8. Record video and make sure even I could figure this out when I first started.
+   9. Include all URLs used for this project in actual README
+   10. Break below components into functional components.
+   11. Bring this project up with Byron on Friday's tutor class to see if he would create this differently.
+   12. Read more on node fs/ES5-6 documentation to see if there is a cleaner way/better way to code below.
+   13. Once complete, attempt to refactor with a catch statement.
+*/
+
+
+
 
         switch (`${answers.license}`) {
             case 'Apache':
