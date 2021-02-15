@@ -1,11 +1,11 @@
     
-# Jonathan
-[![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](licenseURL)
+# Jonathan Michael
+[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 
 
 ## Description 
-*Michael*
+*Hammond*
 
 -----------
 ## Table of Contents
@@ -24,32 +24,32 @@
 
 -----------
 ## Installation 
-Hammond
+Rights
 
 -----------
 
 ## Usage 
-No
+Writes
 
 -----------
 
 ## License 
-Apache License
+MIT License
 
 -----------
 
 ## Contributing 
-Yes
-
------------
-
-## Tests 
 No
 
 -----------
 
-## Questions 
-Maybe
-* GitHub: https://github.com/So
+## Tests 
+Yes
 
-* For additional information, please reach out to No
+-----------
+
+## Questions 
+Pythonidaer
+* GitHub: https://github.com/pythonidaer
+
+* For additional information, please reach out to Pythonidaer

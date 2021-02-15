@@ -95,34 +95,34 @@ Instructions for President's Day:
                 break;
             case 'Academic':
                 licenseBadge = 'https://img.shields.io/badge/License-Academic-informational.svg'
-                licenseURL = '';
+                licenseURL = 'https://opensource.org/licenses/AFL-3.0';
                 break;
             case 'GNU':
                 licenseBadge = 'https://img.shields.io/badge/License-GPLv3-blue.svg'
-                licenseURL = '';
+                licenseURL = 'https://opensource.org/licenses/GPL-3.0';
                 break;
             case 'ISC':
                 licenseBadge = 'https://img.shields.io/badge/License-ISC-blueviolet.svg'
-                licenseURL = '';
+                licenseURL = 'https://opensource.org/licenses/ISC';
                 break;
             case 'MIT':
                 licenseBadge = 'https://img.shields.io/badge/License-MIT-brightgreen.svg'
-                licenseURL = '';
+                licenseURL = 'https://opensource.org/licenses/MIT';
                 break;
             case 'Mozilla':
                 licenseBadge = 'https://img.shields.io/badge/License-MPL%202.0-orange.svg'
-                licenseURL = '';
+                licenseURL = 'https://opensource.org/licenses/MPL-2.0';
                 break;
             case 'Open':
-                licenseBadge = 'https://img.shields.io/badge/License-ODC_BY-sucess.svg'
-                licenseURL = '';
+                licenseBadge = 'https://img.shields.io/badge/License-OSL%203.0-sucess.svg'
+                licenseURL = 'https://opensource.org/licenses/OSL-3.0';
                 break;
             
         }
 
         const myMd = `    
 # ${answers.projectTitle}
-[![License](${licenseBadge})](licenseURL)
+[![License](${licenseBadge})](${licenseURL})
 
 
 
