@@ -26,7 +26,7 @@ inquirer
         {
             type: "list",
             name: "license",
-            message: "Chose the appropriate license for this project to be covered under: ",
+            message: "Which license should this project be covered under? (Use arrow keys)",
             choices: [
                 "Apache",
                 "Academic",
@@ -67,13 +67,10 @@ inquirer
 
 /*
 Instructions for President's Day:
-   1. Attach links to licenses within case statements (see below link for examples):
-   https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
-   2. Update README to include resources used for node, npm inquirer, npm, as well as GitHub inspirations.
-   3. Review instructions to make sure Acceptance Criteria is satisfied with questions above.
-   4. Determine if we have to use generateMarkdown.js in which case this needs refactoring.
-   5. Experiment with module.exports = filename // then const filename = require('./filename.js');
-   6. Once project is confirmed completed, run through grading rubric unit-9-rubric.html
+   1. Update README to include resources used for node, npm inquirer, npm, as well as GitHub inspirations.
+   2. Experiment with module.exports = filename // then const filename = require('./filename.js');
+   3. Consider extracting entire template literal into a function exported from another file.
+
    7. Make sure GitHub repository contains correct MARKDOWN file in sample readme instructions.
    8. Record video and make sure even I could figure this out when I first started.
    9. Include all URLs used for this project in actual README
@@ -82,7 +79,12 @@ Instructions for President's Day:
    12. Read more on node fs/ES5-6 documentation to see if there is a cleaner way/better way to code below.
    13. Once complete, attempt to refactor with a catch statement.
    14. Consider adding emojis to spruce things up.
-   15. Consider extracting entire template literal into a function exported from another file.
+
+   To DOs:
+    * Student does not include link to walkthrough video in README
+    * Walkthrough video does not demonstrate how to invoke the application
+    * Walkthrough video doesn't demonstrate any of the prompts receiving user input
+    * Repository README is missing either the description or the link to the walkthrough video
 */
 
 
@@ -156,7 +158,7 @@ ${answers.usage}
 -----------
 
 ## License 
-${answers.license} License
+This project is covered under the ${answers.license} license.
 
 -----------
 
@@ -174,10 +176,10 @@ ${answers.tests}
 ${answers.questions}
 * GitHub: https://github.com/${answers.username}
 
-* For additional information, please reach out to ${answers.email}
+* For additional information, please send an email to: ${answers.email}
 `
 
-        const readme = 'sampleREADME.md';
+        const readme = 'TEST.md';
 
 
         fs.writeFile(readme, myMd, (err) =>
