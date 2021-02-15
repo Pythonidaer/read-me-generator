@@ -81,6 +81,8 @@ Instructions for President's Day:
    11. Bring this project up with Byron on Friday's tutor class to see if he would create this differently.
    12. Read more on node fs/ES5-6 documentation to see if there is a cleaner way/better way to code below.
    13. Once complete, attempt to refactor with a catch statement.
+   14. Consider adding emojis to spruce things up.
+   15. Consider extracting entire template literal into a function exported from another file.
 */
 
 
@@ -89,31 +91,38 @@ Instructions for President's Day:
         switch (`${answers.license}`) {
             case 'Apache':
                 licenseBadge = 'https://img.shields.io/badge/License-Apache%202.0-green.svg'
+                licenseURL = 'https://opensource.org/licenses/Apache-2.0';
                 break;
             case 'Academic':
                 licenseBadge = 'https://img.shields.io/badge/License-Academic-informational.svg'
+                licenseURL = '';
                 break;
             case 'GNU':
                 licenseBadge = 'https://img.shields.io/badge/License-GPLv3-blue.svg'
+                licenseURL = '';
                 break;
             case 'ISC':
                 licenseBadge = 'https://img.shields.io/badge/License-ISC-blueviolet.svg'
+                licenseURL = '';
                 break;
             case 'MIT':
                 licenseBadge = 'https://img.shields.io/badge/License-MIT-brightgreen.svg'
+                licenseURL = '';
                 break;
             case 'Mozilla':
                 licenseBadge = 'https://img.shields.io/badge/License-MPL%202.0-orange.svg'
+                licenseURL = '';
                 break;
             case 'Open':
                 licenseBadge = 'https://img.shields.io/badge/License-ODC_BY-sucess.svg'
+                licenseURL = '';
                 break;
             
         }
 
         const myMd = `    
 # ${answers.projectTitle}
-![License](${licenseBadge})
+[![License](${licenseBadge})](licenseURL)
 
 
 
