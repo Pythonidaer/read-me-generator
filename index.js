@@ -3,24 +3,6 @@ const fs = require('fs');
   
 inquirer
     .prompt([
-        /* Pass your questions in here */
-        // {
-        //     type: 'input',
-        //     name: 'firstName',
-        //     message: 'What is your name?',
-        // },
-        // {
-        //     type: 'checkbox',
-        //     message: 'What languages do you know?',
-        //     name: 'stack',
-        //     choices: ['HTML', 'CSS', 'JavaScript', 'MySQL'],
-        // },
-        // {
-        //     type: 'list',
-        //     message: 'What is your preferred method of communication?',
-        //     name: 'contact',
-        //     choices: ['email', 'phone', 'telekinesis'],
-        // },
         {
             type: "input",
             name: "projectTitle",
@@ -34,17 +16,17 @@ inquirer
         {
             type: "input",
             name: "installation",
-            message: "Describe the installation process if any: ",
+            message: "What are the installation instructions for this project if any?",
         },
         {
             type: "input",
             name: "usage",
-            message: "What is this project usage for?"
+            message: "Please provide any helpful or necessary information on project usage: "
         },
         {
             type: "list",
             name: "license",
-            message: "Chose the appropriate license for this project: ",
+            message: "Chose the appropriate license for this project to be covered under: ",
             choices: [
                 "Apache",
                 "Academic",
@@ -90,34 +72,59 @@ inquirer
         }
         */
 
-        const myMd = `
-        ## Title 
-        ${answers.projectTitle} \n
-        ### Description 
-        ${answers.description} \n
-        ### Installation 
-        ${answers.installation} \n
-        ### Usage 
-        ${answers.usage} \n
-        ### License 
-        ${answers.license} \n
-        ### Contributing 
-        ${answers.contributing} \n
-        ### Tests 
-        ${answers.tests} \n
-        ### Questions 
-        ${answers.questions} \n
-        ### Username 
-        ${answers.username} \n
-        ### Email 
-        ${answers.email} \n
-        `
-        
+        const myMd = `    
+# ${answers.projectTitle}
+## Description 
+*${answers.description}*
 
+-----------
+### Table of Contents
 
+[Installation](https://github.com/${answers.username}/read-me-generator#installation)
 
-        // Use user feedback for... whatever!!
-        // const filename = `${answers.firstName.toLowerCase().split(' ').join('')}.json`;
+[Usage](https://github.com/${answers.username}/read-me-generator#usage)
+
+[License](https://github.com/${answers.username}/read-me-generator#license)
+
+[Contributing](https://github.com/${answers.username}/read-me-generator#contributing)
+
+[Tests](https://github.com/${answers.username}/read-me-generator#tests)
+
+[Questions](https://github.com/${answers.username}/read-me-generator#questions)
+
+-----------
+## Installation 
+${answers.installation}
+
+-----------
+
+## Usage 
+${answers.usage}
+
+-----------
+
+## License 
+${answers.license}
+
+-----------
+
+## Contributing 
+${answers.contributing}
+
+-----------
+
+## Tests 
+${answers.tests}
+
+-----------
+
+## Questions 
+${answers.questions}
+* GitHub: https://github.com/${answers.username}
+
+* For additional information, please reach out to ${answers.email}.
+`
+
         const readme = 'sampleREADME.md';
 
 
@@ -125,9 +132,6 @@ inquirer
             err ? console.log(err) : console.log('Success!')
         );
 
-        // fs.writeFile(filename, JSON.stringify(answers, null, '\t'), (err) =>
-        //     err ? console.log(err) : console.log('Success!')
-        // );
     });
 //     .catch(error => {
 //         if(error.isTtyError) {
