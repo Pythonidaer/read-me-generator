@@ -64,36 +64,35 @@ inquirer
         }
     ])
     .then((answers) => {
-        /*
-        {
-            firstName: 'jon',
-            stack: 'html',
-            contact: 'email;
-        }
-        */
-
-// Table of contents goes: 
-// - github.com/username/reponame/blob/main/readmename.md
-
         const myMd = `    
 # ${answers.projectTitle}
+![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)
+![License](https://img.shields.io/badge/License-Academic-informational.svg)
+![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
+![License](https://img.shields.io/badge/License-ISC-blueviolet.svg)
+![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
+![License](https://img.shields.io/badge/License-MPL%202.0-orange.svg)
+![License](https://img.shields.io/badge/License-ODC_BY-sucess.svg)
+
+
+
 ## Description 
 *${answers.description}*
 
 -----------
-### Table of Contents
+## Table of Contents
 
-[Installation](#installation)
+* [Installation](#installation)
 
-[Usage](#usage)
+* [Usage](#usage)
 
-[License](#license)
+* [License](#license)
 
-[Contributing](#contributing)
+* [Contributing](#contributing)
 
-[Tests](#tests)
+* [Tests](#tests)
 
-[Questions](#questions)
+* [Questions](#questions)
 
 -----------
 ## Installation 
@@ -107,7 +106,7 @@ ${answers.usage}
 -----------
 
 ## License 
-${answers.license}
+${answers.license} License
 
 -----------
 
@@ -125,7 +124,7 @@ ${answers.tests}
 ${answers.questions}
 * GitHub: https://github.com/${answers.username}
 
-* For additional information, please reach out to ${answers.email}.
+* For additional information, please reach out to ${answers.email}
 `
 
         const readme = 'sampleREADME.md';
