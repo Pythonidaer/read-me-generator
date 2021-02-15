@@ -1,51 +1,51 @@
     
-# Jonathan
+# README generator
 ## Description 
-*'Michael*
+*La de freakin da*
 
 -----------
 ### Table of Contents
 
-[Installation](https://github.com/pythonidaer/read-me-generator#installation)
+[Installation](https://github.com/Pythonidaer/read-me-generator#installation)
 
-[Usage](https://github.com/pythonidaer/read-me-generator#usage)
+[Usage](https://github.com/Pythonidaer/read-me-generator#usage)
 
-[License](https://github.com/pythonidaer/read-me-generator#license)
+[License](https://github.com/Pythonidaer/read-me-generator#license)
 
-[Contributing](https://github.com/pythonidaer/read-me-generator#contributing)
+[Contributing](https://github.com/Pythonidaer/read-me-generator#contributing)
 
-[Tests](https://github.com/pythonidaer/read-me-generator#tests)
+[Tests](https://github.com/Pythonidaer/read-me-generator#tests)
 
-[Questions](https://github.com/pythonidaer/read-me-generator#questions)
+[Questions](https://github.com/Pythonidaer/read-me-generator#questions)
 
 -----------
 ## Installation 
-Hammond
+Cry a lot
 
 -----------
 
 ## Usage 
-Yes
+Don't do drugs
 
 -----------
 
 ## License 
-Apache
+MIT
 
 -----------
 
 ## Contributing 
-No
+Me a mario
 
 -----------
 
 ## Tests 
-Maybe
+nah
 
 -----------
 
 ## Questions 
-So
-* GitHub: https://github.com/pythonidaer
+cry about it
+* GitHub: https://github.com/Pythonidaer
 
-* For additional information, please reach out to code@aol.com.
+* For additional information, please reach out to codefolio.work@gmail.com.
