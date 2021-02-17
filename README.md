@@ -62,7 +62,7 @@ Please review the `TEST.md` file to see how README files look when created with 
 
 [Reading Node Documentation](https://www.youtube.com/results?search_query=reading+node+documentation)
 
-[Node.js DOcumentation - fs](https://nodejs.org/api/fs.html)
+[Node.js Documentation - fs](https://nodejs.org/api/fs.html)
 
 [How to use writeFileAsync function in fs](https://www.codota.com/code/javascript/functions/fs/writeFileAsync)
 
@@ -70,7 +70,7 @@ Please review the `TEST.md` file to see how README files look when created with 
 
 [OpenSource Licenses - Alphabetical](https://opensource.org/licenses/alphabetical)
 
-[Shiels.io Licenses](https://shields.io/category/license)
+[Shields.io Licenses](https://shields.io/category/license)
 
 [Markdown License Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
 
@@ -80,7 +80,7 @@ Please review the `TEST.md` file to see how README files look when created with 
 
 [W3Schools - Switch Statements](https://www.w3schools.com/js/js_switch.asp)
 
-[Tutorial - Manual TOC in GitHub README](https://www.setcorrect.com/portfolio/work11/)
+[Tutorial - Manual Table of Contents in GitHub README](https://www.setcorrect.com/portfolio/work11/)
 
 [Hillary Fraley - Nested Table of Contents in a README.md](https://github.com/hillaryfraley/jobbriefings#purpose)
 
@@ -92,7 +92,7 @@ Please review the `TEST.md` file to see how README files look when created with 
 -----------
 
 ## Questions 
-GitHub: https://github.com/pythonidaer
+GitHub: https://github.com/Pythonidaer
 
 For additional information, please reach out to codefolio.work@gmail.com
 

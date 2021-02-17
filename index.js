@@ -64,31 +64,18 @@ inquirer
         }
     ])
     .then((answers) => {
-
 /*
-Instructions for President's Day:
-   1. Update README to include resources used for node, npm inquirer, npm, as well as GitHub inspirations.
-   2. Experiment with module.exports = filename // then const filename = require('./filename.js');
-   3. Consider extracting entire template literal into a function exported from another file.
+TODO:
+    ADD VIDEO:
+    1. Linked video inside README showing how to invoke application as well as all prompts
+    2. Record video and make sure even I could figure this out when I first started.
 
-   7. Make sure GitHub repository contains correct MARKDOWN file in sample readme instructions.
-   8. Record video and make sure even I could figure this out when I first started.
-   9. Include all URLs used for this project in actual README
-   10. Break below components into functional components.
-   11. Bring this project up with Byron on Friday's tutor class to see if he would create this differently.
-   12. Read more on node fs/ES5-6 documentation to see if there is a cleaner way/better way to code below.
-   13. Once complete, attempt to refactor with a catch statement.
-   14. Consider adding emojis to spruce things up.
+    READ DOCUMENTATION:
+    3. Read more on node fs/ES5-6 documentation
 
-   To DOs:
-    * Student does not include link to walkthrough video in README
-    * Walkthrough video does not demonstrate how to invoke the application
-    * Walkthrough video doesn't demonstrate any of the prompts receiving user input
-    * Repository README is missing either the description or the link to the walkthrough video
+    REFACTOR:
+    4. Once complete, attempt to refactor with a catch statement.
 */
-
-
-
 
         switch (`${answers.license}`) {
             case 'Apache':
@@ -121,7 +108,7 @@ Instructions for President's Day:
                 break;
             
         }
-
+        const readme = 'TEST.md';
         const myMd = `    
 # ${answers.projectTitle}
 [![License](${licenseBadge})](${licenseURL})
@@ -178,9 +165,6 @@ ${answers.questions}
 
 * For additional information, please send an email to: ${answers.email}
 `
-
-        const readme = 'TEST.md';
-
 
         fs.writeFile(readme, myMd, (err) =>
             err ? console.log(err) : console.log('Success!')

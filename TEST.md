@@ -29,7 +29,7 @@ Node is required. Read up on npmjs.com and search for inquirer to follow instruc
 -----------
 
 ## Usage 
-The best part about this project is that it can be used to prompt users with a wide variety of information. This doesn't stop at just a READMe generator.
+The best part about this project is that it can be used to prompt users with a wide variety of information. This doesn't stop at just a README generator.
 
 -----------
 
