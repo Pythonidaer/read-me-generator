@@ -1,6 +1,11 @@
+// import object from library from package manager we're using.
 const inquirer = require('inquirer');
+// import file system object from node.
 const fs = require('fs');
   
+// more information on using inquirer is found at npmjs.com
+// inputs = user types characters and presses enter
+// list = user uses up/down keys to select option then presses enter
 inquirer
     .prompt([
         {
@@ -63,7 +68,9 @@ inquirer
             message: "Please enter your email: "
         }
     ])
+    // When user successfully completes application prompts, object answers passes as a resolved Promise.
     .then((answers) => {
+        // Depending on which license the user selects, determine which badge and corresponding link shows at the top of the README.
         switch (`${answers.license}`) {
             case 'Apache':
                 licenseBadge = 'https://img.shields.io/badge/License-Apache%202.0-green.svg'
@@ -95,7 +102,9 @@ inquirer
                 break;
             
         }
+        // name of our markdown file to be created.
         const readme = 'sample.md';
+        // my markdown is composed of this file; notice the string template literals utilized with markdown syntax.
         const myMd = `    
 # ${answers.projectTitle}
 [![License](${licenseBadge})](${licenseURL})
@@ -152,7 +161,8 @@ ${answers.questions}
 
 * For additional information, please send an email to: ${answers.email}
 `
-
+        // write contents of 'myMy - my markdown' to file named sample.md
+        // if there is an error, log the error; else log Success!
         fs.writeFile(readme, myMd, (err) =>
             err ? console.log(err) : console.log('Success!')
         );
