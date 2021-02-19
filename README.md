@@ -99,3 +99,19 @@ For additional information, please reach out to codefolio.work@gmail.com
 <a href="https://twitter.com/jonamichahammo">
     <img alt="Twitter: jonamichahammo" src="https://img.shields.io/twitter/follow/jonamichahammo.svg?style=social" target="_blank" />
 </a>
+
+
+-----------
+
+## Future Improvements
+As homeworks are on tight deadlines, I didn't spend as much time as I'd have liked to on catching errors
+
+In the future, I'd like to either incorporate a recursive function that always repeats for prompts that are not filled correctly by the user, or try something like what you see below:
+```
+.catch(error => {    
+    if(error.isTtyError) {
+    //   
+    } else {
+    //     
+}
+```

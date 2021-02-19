@@ -64,19 +64,6 @@ inquirer
         }
     ])
     .then((answers) => {
-/*
-TODO:
-    ADD VIDEO:
-    1. Linked video inside README showing how to invoke application as well as all prompts
-    2. Record video and make sure even I could figure this out when I first started.
-
-    READ DOCUMENTATION:
-    3. Read more on node fs/ES5-6 documentation
-
-    REFACTOR:
-    4. Once complete, attempt to refactor with a catch statement.
-*/
-
         switch (`${answers.license}`) {
             case 'Apache':
                 licenseBadge = 'https://img.shields.io/badge/License-Apache%202.0-green.svg'
@@ -169,12 +156,4 @@ ${answers.questions}
         fs.writeFile(readme, myMd, (err) =>
             err ? console.log(err) : console.log('Success!')
         );
-
     });
-//     .catch(error => {
-//         if(error.isTtyError) {
-//         // Prompt couldn't be rendered in the current environment
-//         } else {
-//         // Something else when wrong
-//         }
-//   });
