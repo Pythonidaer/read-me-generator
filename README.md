@@ -23,7 +23,7 @@
 
 -----------
 ## Installation 
->I still need to attach a video still and link it in the README.md
+>[Click Here To Watch How To Video](https://drive.google.com/file/d/1b-O66w8oAv6gTna-eIdlKhimqo0syqEJ/view)
 
 1. Make sure node.js is installed on your computer.
 2. Create directory.

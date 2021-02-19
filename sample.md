@@ -1,11 +1,11 @@
     
-# Read Me Generator
+# README Generator
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 
 
 ## Description 
-*This project incorporates node and npm inquirer to dynamically generate a README based off of user input.*
+*Node and npm inquirer are required. This is meant to dynamically generate READMEs for professional developers.*
 
 -----------
 ## Table of Contents
@@ -24,12 +24,12 @@
 
 -----------
 ## Installation 
-Node is required, as is npm inquirer. Information on installing inquirer can be found on npmjs.org
+Node and npm inquirer are required for this project. Watch the attached video for more detail.
 
 -----------
 
 ## Usage 
-You can use it for whatever you'd like. Just note that it is invoked inside of the user's local machine's terminal.
+This README can be doctored after creation, so feel free to tinker with the .md or the index.js if you want to change what it asks!
 
 -----------
 
@@ -39,17 +39,17 @@ This project is covered under the MIT license.
 -----------
 
 ## Contributing 
-Although this was simply a homework assignment, feel free to contact me by email or through GitHub if you have questions, inspirations to add onto the project, or if you run into any issues.
+If you have any questions or concerns, feel free to contact me (information available below). This was a homework assignment, but reach out if you run into any issues or want to add onto it somehow.
 
 -----------
 
 ## Tests 
-Yes. sample.md (this) is the test.
+sample.md is the test file for this project.
 
 -----------
 
 ## Questions 
-Feel free to email me, with my information being available below.
+contact me
 * GitHub: https://github.com/Pythonidaer
 
 * For additional information, please send an email to: codefolio.work@gmail.com
