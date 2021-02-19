@@ -108,7 +108,7 @@ TODO:
                 break;
             
         }
-        const readme = 'TEST.md';
+        const readme = 'sample.md';
         const myMd = `    
 # ${answers.projectTitle}
 [![License](${licenseBadge})](${licenseURL})
